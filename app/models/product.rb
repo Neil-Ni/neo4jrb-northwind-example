@@ -14,5 +14,5 @@ class Product
 
   has_one  :out, :category, type: :PART_OF
   has_many :in, :suppliers, origin: :products
-  has_many :in, :order, origin: :products
+  has_many :in, :orders, origin: :products
 end
